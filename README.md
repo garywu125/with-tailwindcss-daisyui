@@ -1,7 +1,7 @@
 # Astro with Tailwind
 
 ```
-npm init astro -- --template with-tailwindcss
+npm init astro -- --template garywu125/with-tailwindcss-daisyui
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/with-tailwindcss)
