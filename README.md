@@ -1,3 +1,8 @@
+# Astro custom template starter from github.com
+
+- make code repository public 
+
+
 # Astro with Tailwind
 
 ```
