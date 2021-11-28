@@ -1,0 +1,13 @@
+tasks:
+  - init: npm install
+    command: npm run start
+
+vscode:
+  extensions:
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/astro-build/vsextensions/astro-vscode/0.7.13/vspackage
+    - esbenp.prettier-vscode
+    - dbaeumer.vscode-eslint
+
+ports:
+  - port: 3000
+    onOpen: open-preview

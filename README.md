@@ -1,3 +1,7 @@
+# vercel deployment
+
+with-tailwindcss-daisyui.vercel.app
+
 # Astro custom template starter from github.com
 
 - make code repository public 
