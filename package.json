@@ -14,6 +14,7 @@
     "tailwindcss": "^2.2.19"
   },
   "dependencies": {
+    "cheetah-grid": "^1.1.10",
     "daisyui": "^1.16.2"
   }
 }

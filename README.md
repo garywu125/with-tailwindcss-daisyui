@@ -13,7 +13,7 @@ with-tailwindcss-daisyui.vercel.app
 npm init astro -- --template garywu125/with-tailwindcss-daisyui
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/with-tailwindcss)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/https://github.com/garywu125/with-tailwindcss-daisyui)
 
 Astro comes with [Tailwind](https://tailwindcss.com) support out of the box. This example showcases how to style your Astro project with Tailwind.
 
