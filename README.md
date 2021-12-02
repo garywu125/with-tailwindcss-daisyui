@@ -1,6 +1,13 @@
-# vercel deployment
 
-with-tailwindcss-daisyui.vercel.app
+# cloud Deployment
+- vercel deployment
+
+  with-tailwindcss-daisyui.vercel.app
+
+- netlify Deployment
+  
+  - create netlify.toml
+      
 
 # Astro custom template starter from github.com
 
