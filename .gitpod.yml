@@ -4,7 +4,7 @@ tasks:
 
 vscode:
   extensions:
-    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/astro-build/vsextensions/astro-vscode/0.7.13/vspackage
+    - https://marketplace.visualstudio.com/_apis/public/gallery/publishers/astro-build/vsextensions/astro-vscode/0.8.2/vspackage
     - esbenp.prettier-vscode
     - dbaeumer.vscode-eslint
 
