@@ -1,0 +1,45 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro'
+---
+<BaseLayout title="drawer">
+    <div class="rounded-lg shadow bg-base-200 drawer h-52">
+        <input id="my-drawer" type="checkbox" class="drawer-toggle"> 
+        <div class="flex flex-col items-center justify-center drawer-content">
+            <label for="my-drawer" class="btn btn-primary drawer-button">open menu</label>
+        </div> 
+        <div class="drawer-side">
+            <label for="my-drawer" class="drawer-overlay"></label> 
+            <ul class="menu p-4 overflow-y-auto w-80 bg-base-100 text-base-content">
+            <li>
+                <a>Menu Item</a>
+            </li> 
+            <li>
+                <a>Menu Item</a>
+            </li>
+            </ul>
+        </div>
+    </div>
+    <!-- default theme -->
+    <div class="p-10 bg-base-100 text-base-content">
+        <button class="btn">buttonX</button>
+        <button class="btn btn-primary">button</button>
+        <button class="btn btn-secondary">button</button>
+        <button class="btn btn-accent">button</button>
+    </div>
+
+    <!-- garden theme -->
+    <div class="p-10 bg-base-100 text-base-content" data-theme=garden>
+        <button class="btn">button</button>
+        <button class="btn btn-primary">button</button>
+        <button class="btn btn-secondary">button</button>
+        <button class="btn btn-accent">button</button>
+    </div>
+
+    <!-- forest theme -->
+    <div class="p-10 bg-base-100 text-base-content" data-theme=forest>
+        <button class="btn">button</button>
+        <button class="btn btn-primary">button</button>
+        <button class="btn btn-secondary">button</button>
+        <button class="btn btn-accent">button</button>
+    </div>
+</BaseLayout>    

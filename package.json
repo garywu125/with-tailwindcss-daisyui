@@ -9,12 +9,16 @@
     "preview": "astro preview"
   },
   "devDependencies": {
-    "astro": "^0.21.11",
+    "@tailwindcss/aspect-ratio": "^0.3.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.1",
+    "astro": "^0.21.12",
     "autoprefixer": "^10.4.0",
-    "tailwindcss": "^2.2.19"
+    "tailwindcss": "^2.2.19",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
-    "cheetah-grid": "^1.1.10",
     "daisyui": "^1.16.2"
   }
 }
