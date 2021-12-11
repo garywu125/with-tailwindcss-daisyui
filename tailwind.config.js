@@ -1,6 +1,6 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./src/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue}'],
+  // mode: 'jit',
+  content: ['./src/**/*.{astro,html,js,jsx,svelte,ts,tsx,vue}'],
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
@@ -8,4 +8,7 @@ module.exports = {
     require('@tailwindcss/aspect-ratio'),
     require('daisyui'),
   ],
+  corePlugins: {
+    preflight: false,
+  },
 };
